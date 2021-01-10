@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="PracticeEngine.h" />
+    <ClInclude Include="Core\Window.h" />
+    <ClInclude Include="Core\IScene.h" />
+    <ClInclude Include="Core\Graphics.h" />
+    <ClInclude Include="Utilities\SingletonBase.h" />
+    <ClInclude Include="Utilities\DxHelpers.h" />
+    <ClInclude Include="Utilities\Keyboard.h" />
+    <ClInclude Include="Utilities\Mouse.h" />
+    <ClInclude Include="Utilities\Time.h" />
+    <ClInclude Include="Core\Camera.h" />
+    <ClInclude Include="Renders\GlobalBuffer.h" />
+    <ClInclude Include="Renders\ShaderBuffer.h" />
+    <ClInclude Include="Utilities\Gui.h" />
+    <ClInclude Include="Test\Entry.h" />
+    <ClInclude Include="Geometries\Rect.h" />
+    <ClInclude Include="Renders\VertexTypes.h" />
+    <ClInclude Include="Renders\IA\IndexBuffer.h" />
+    <ClInclude Include="Renders\IA\InputLayout.h" />
+    <ClInclude Include="Renders\IA\VertexBuffer.h" />
+    <ClInclude Include="Renders\Shaders\IShader.h" />
+    <ClInclude Include="Renders\Shaders\VertexShader.h" />
+    <ClInclude Include="Renders\Shaders\PixelShader.h" />
+    <ClInclude Include="Test\RectDemo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Window.cpp" />
+    <ClCompile Include="Core\IScene.cpp" />
+    <ClCompile Include="Core\Graphics.cpp" />
+    <ClCompile Include="Utilities\DxHelpers.cpp" />
+    <ClCompile Include="Utilities\Keyboard.cpp" />
+    <ClCompile Include="Utilities\Mouse.cpp" />
+    <ClCompile Include="Utilities\Time.cpp" />
+    <ClCompile Include="Core\Camera.cpp" />
+    <ClCompile Include="Utilities\Gui.cpp" />
+    <ClCompile Include="Test\Entry.cpp" />
+    <ClCompile Include="Geometries\Rect.cpp" />
+    <ClCompile Include="Renders\VertexTypes.cpp" />
+    <ClCompile Include="Renders\IA\IndexBuffer.cpp" />
+    <ClCompile Include="Renders\IA\InputLayout.cpp" />
+    <ClCompile Include="Renders\IA\VertexBuffer.cpp" />
+    <ClCompile Include="Renders\Shaders\IShader.cpp" />
+    <ClCompile Include="Renders\Shaders\VertexShader.cpp" />
+    <ClCompile Include="Renders\Shaders\PixelShader.cpp" />
+    <ClCompile Include="Test\RectDemo.cpp" />
+  </ItemGroup>
+</Project>
