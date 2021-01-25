@@ -12,9 +12,9 @@
 #include <Windows.h>
 #include <vector>
 #include <unordered_map>
-#include <assert.h>
-#include <functional>
-#include <fstream>
+#include <assert.h> 
+#include <functional> 
+#include <fstream> 
 #include <set>
 #include <random>
 
@@ -37,7 +37,7 @@
 #include "ImGui/imgui_internal.h"
 #include "ImGui/imgui_impl_dx11.h"
 #include "ImGui/imgui_impl_win32.h"
-#pragma comment(lib, "ImGui/ImGui.lib")
+#pragma comment(lib, "ImGui/ImGui.lib") 
  
 // DirectXTex
 #include "DirectTex/DirectXTex.h"
